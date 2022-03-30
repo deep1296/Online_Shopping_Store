@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> user's details | Theory</title>
+    <link rel="shortcut icon" href="https://www.theory.com/on/demandware.static/Sites-theory2_US-Site/-/default/dw580c9d16/images/favicons/favicon2.ico">
+    <link rel="stylesheet" type="text/css" href="../styles/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/asignup.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="ak-account"><a id="ak-h1" href="#" class="ak-account"><h1>ACCOUNT</h1></a></div>
+    <div id="ak-container">
+        <div id="ak-register-form">
+            <div id="head-sign-up">
+              <div class="ak-sign-in" id="ak-hover" onclick="Click('signIn')"><p>Sign in</p></div>
+              <div class="ak-create-account" id="ak-hover" onclick="Click('signUp')"><p>Create Account</p></div>
+            </div>
+             <div class="form-inner">
+                 <!-- <----- Sign In Form start------->
+                <form action="#" class="login">
+                   <div class="field">
+                      <input type="text" id="ak-input" class="ak-login-email" placeholder="*Email Address" required>
+                   </div>
+                   <div class="field">
+                      <input type="password" id="ak-input" class="ak-login-pass" placeholder="*Password" required>
+                   </div>
+                   <div  id="ak-remember-me"><input type="checkbox" class="Remember-me"><label>Remember me</label></div>
+                   <div class="field btn">
+                      <div class="btn-layer"></div>
+                      <input type="submit" value="SIGN IN" id="ak-status-check-btn">
+                   </div>
+                   <div class="pass-link">
+                    <a href="#">Forgot Password?</a>
+                   </div>
+                </form>
+                <!-- <----- Sign In Form end------->
+
+
+                <!------ Create Account Form start------->
+                <form action="#" class="signup">
+                    <div class="field" id="ak-name-box">
+                    <div class="s_input">
+                        <input type="text" id="ak-sign-input"  class="first_name" placeholder="*First Name" required data-errors="name is not valid">
+                        <p id="first_name" class="errr"></p>
+                    </div>
+                    <div  class="s_input">
+                        <input type="text" id="ak-sign-input"  class="last_name" placeholder="*Last Name" required>
+                      <p id="last_name" class="errr"></p>
+                    </div>
+                    </div>
+                    <!-- <div class="field">
+                        
+                    </div> -->
+                    <div class="field">
+                        <input type="text" id="ak-signup-input" class="ak-email" placeholder="*Email Address" required>
+                        <p id="email" class="errr"></p>
+                    </div>
+                   <div class="field">
+                      <input type="text" id="ak-signup-input" placeholder="*Confirm Email Address" required>
+                   </div>
+                   <div class="field">
+                      <input type="password" id="ak-signup-input" class="ak-pass" placeholder="*Password (8 - 255 characters)" required>
+                      <p id="password" class="errr"></p>
+                    </div>
+                   <div class="field">
+                      <input type="password" id="ak-signup-input" placeholder="*Confirm Password" required>
+                   </div>
+                   <div id="ak-birth-day">
+                       <p id="ak-birthday">Birthday Date</p>
+                      <select placeholder="Month" class="select-m">
+                        <option name="" value="" style="display:none;">Month</option>
+                        <option name="#" value="month">Month</option>
+                        <option name="January" value="Jan">01 - January</option>
+                        <option name="February" value="Feb">02 - February</option>
+                        <option name="March" value="Mar">03 - March</option>
+                        <option name="April" value="Apr">04 - April</option>
+                        <option name="May" value="May">05 - May</option>
+                        <option name="June" value="Jun">06 - June</option>
+                        <option name="July" value="Jul">07 - July</option>
+                        <option name="August" value="Aug">08 - August</option>
+                        <option name="September" value="Sep">09 - September</option>
+                        <option name="October" value="Oct">10 - October</option>
+                        <option name="November" value="Nov">11 - November</option>
+                        <option name="December" value="Dec">12 - December</option>
+                      </select>
+                      <select placeholder="Day" class="select-d">
+                        <option name="" value="" style="display:none;">Day</option>
+                        <option name="#" value="Day">Day</option>
+                        <option value="0">01</option>
+                        <option value="0">02</option>
+                        <option value="0">03</option>
+                        <option value="0">04</option>
+                        <option value="0">05</option>
+                        <option value="0">06</option>
+                        <option value="0">07</option>
+                        <option value="0">08</option>
+                        <option value="0">09</option>
+                        <option value="0">10</option>
+                        <option value="0">11</option>
+                        <option value="0">12</option>
+                        <option value="0">13</option>
+                        <option value="0">14</option>
+                        <option value="0">15</option>
+                        <option value="0">16</option>
+                        <option value="0">17</option>
+                        <option value="0">18</option>
+                        <option value="0">19</option>
+                        <option value="0">20</option>
+                        <option value="0">21</option>
+                        <option value="0">22</option>
+                        <option value="0">23</option>
+                        <option value="0">24</option>
+                        <option value="0">25</option>
+                        <option value="0">26</option>
+                        <option value="0">27</option>
+                        <option value="0">28</option>
+                        <option value="0">29</option>
+                        <option value="0">30</option>
+                        <option value="0">31</option>
+                      </select>
+                      <input type="text" placeholder="Year" class="select-y">
+                    </div>
+                    <div id="ak-gender">
+                        <p>Gender</p>
+                        <input type="radio" name="slide" id="female">
+                        <label>Female</label>
+                        <input type="radio" name="slide" id="male">
+                        <label>Male</label>
+                    </div>
+                    <div id="ak-like-to-hear-from-theory">
+                        <input type="checkbox" name="like-to-hear" id="ak-like-to-hear">
+                        <label for="">I'd like to hear from Theory</label>
+                    </div>
+                    <div id="ak-theory-policy">
+                        <p>
+                            <sup>1</sup>By checking this box, 
+                            you consent to receive emails
+                             about Theory's latest collections, 
+                             exclusive offers, and special events. 
+                             You may revoke your consent at any time
+                              by clicking unsubscribe at the bottom of
+                               any email from us. By choosing 'Apply' 
+                               below you accept the terms of our 
+                               <a href="https://www.theory.com/privacy-policy_pd.html">Privacy Policy</a>
+                        </p>
+
+                    </div>
+                   <div class="field btn">
+                      <div class="btn-layer"></div>
+                      <input type="submit" value="REGISTER" id="ak-status-check-btn">
+                   </div>
+                </form>
+                <!------ Create Account Form end ------->
+             </div>
+        </div>
+        <!------ Order Status start------->
+        <div id="ak-order-status">
+            <p id="ak-order-head">Order Status</p>
+            <p id="ak-order-text">Even if you are not a registered user, 
+             you can check your order status. Enter your order number 
+             and email address below.</p>
+             <form action="" id="ak-order-status-form">
+                 <input type="text" placeholder="#" id="input-order">
+                 <br>
+                 <input type="text" placeholder="Email Address" id="input-order">
+                 <br>
+                 <button id="ak-status-check-btn">CHECK STATUS</button>
+             </form>
+
+        </div>
+        <!------ Order Status end------->
+    </div>
+
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+    import navbar from '../components/navbar.js'
+    import footer from '../components/footer.js'
+    let nav = document.getElementById("navbar")
+    nav.innerHTML = navbar()
+
+    let foot = document.getElementById("footer")
+    foot.innerHTML = footer()
+</script>
+
+<script type="text/javascript" src="../scripts/header.js"></script>
+<script src="../scripts/asignup.js" ></script>  
