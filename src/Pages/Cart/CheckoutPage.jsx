@@ -10,6 +10,7 @@ import CartAddress from "../../Components/Cart Components/CartAddress";
 import { Redirect } from "react-router-dom";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
+
 const CheckoutPage = () => {
     const { cart, stage } = useSelector(state => state.cart, shallowEqual);
     const dispatch = useDispatch();
@@ -32,6 +33,11 @@ const CheckoutPage = () => {
 
     if ( stage < 2 ) return <Redirect to="/cart" />;
 
+
+    const checkUser = JSON.parse(localStorage.getItem("phone"));
+    if(!checkUser){
+        return <Redirect to="/signup" />
+    }
     return (
         <div className={styles.root}>
             <CartNavbar active={stage} />
