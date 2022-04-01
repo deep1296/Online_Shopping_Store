@@ -1,0 +1,46 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartTotal {
+    display: flex;
+    gap: 1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.cartTotal > div:nth-child(1) {
+    padding-top: 0rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.7rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.cartTotal p {
+    border-left: 2px solid #DFDFDF;
+    padding: 0.3rem 0.8rem 0rem;
+    font-weight: 500;
+    color: #999999;
+    font-size: 1.2rem;
+}
+
+.cards {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    padding: 5px 1px;
+}
+
+.priceHead {
+    display: flex;
+    background-color: #F9F9F9;
+    color: #333333;
+    gap: 10px;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    padding: 1rem;
+}

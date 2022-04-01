@@ -1,0 +1,261 @@
+.Main_Header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    color: grey;
+    background-color: white;
+    overflow: hidden;
+}
+
+.Main_Header > div:first-child {
+    width: 95%;
+    padding: 0.25% 6.5%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.header_conatainer{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.header_logo > *{
+    height: 70px;
+    margin: 0rem 10% 0% 0%;
+}
+.Search_Input{
+    position: relative;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    align-items: center ;
+    left: 1%;
+    top: 10%;
+    width: 100%;
+    max-width: 380px;
+    height: 4rem;
+    /* padding: 0.5rem 0px 0px 0px; */
+    /* margin:1rem 0rem 0rem 0rem; */
+}
+.search_input{
+    font-size: 16px;
+    width: 85%;
+    border: 0px;
+    outline: 0;
+}
+.url {
+    width:380px;
+    margin-Top:-172px;
+    margin-Left:270px;
+    background-color:#FFFFFF;
+    border:0.2px solid #F9F9F9;
+    position: fixed;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.icon{
+    left: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+.upper{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cards_container{
+    position: relative;
+    height: 100%;
+    margin-left: 15%;
+    margin-top: 8px;
+    gap: 2rem;
+    display: flex;
+    flex: 6 1 0%;
+    align-items: center;
+    font-size: 18px;
+}
+.cards_container > * {
+    cursor: pointer;
+}
+
+p {
+    margin: 0px;
+}
+.cards{
+    align-items: center;
+    display: flex;
+}
+.dividerLines{
+    margin-top: 20px;
+    width: 100%;
+    height:1px ;
+    background-color: lightgray;
+}
+.dropdownContent{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 10px 20px 20px;
+    position: absolute;
+    display: none;
+}
+.profile{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.profileContent{ 
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    /* margin-top: 200px; */
+    width: 250px;
+    padding-left:15px ;
+    text-align: left;
+    position: fixed;
+    left: 77.5%;
+    top: 70px;
+    min-height: fit-content;
+    display: none;
+    /* align-self: center; */
+
+}
+.profileCard{
+    display: inline;
+    text-decoration: none;
+}
+.profileCard:hover .profileContent{
+    color: gray;
+    display: block;
+    z-index: 1210;
+}
+.profileCard:hover .profile{
+    color: #f43397;
+}
+.downloadCard{
+    display: inline;
+    min-height: fit-content;
+}
+.downloadCard:hover .cards{color: #f43397;}
+ .downloadCard:hover .dropdownContent{
+
+    color:black;
+    display:flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-height: fit-content;
+    position: fixed;
+    margin-top: 18%;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #DFDFDF;
+}
+.links > *:nth-child(odd) {
+    padding: 1.2% 1.5%;
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 3px solid #fff;
+    font-size: 1rem;
+}
+.links > *:nth-child(odd):hover{
+    border-bottom: 3px solid #f43397;
+}
+
+.links > *:nth-child(odd) + * {
+    display: none;
+}
+.links > *:nth-child(even):hover,
+.links > *:nth-child(odd):hover + * {
+    display: flex;
+}
+
+
+.res {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+.rest {
+    width:250px;
+    font-size: 18px;
+    text-align: left;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+
+.cart {
+    position: relative;
+    top: -1%;
+}
+
+.cartTotal {
+    position: absolute;
+    background-color: #f43397;
+    top: -23%;
+    right: -17%;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.appBtn {
+    height: 50px;
+    margin: auto;    
+}
+
+.android + p {
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.dividerLines + h3 {
+    display: flex;
+    gap: 1rem;
+}
+
+
+@media screen and ( max-width: 1000px ) {
+    .Search_Input {
+        display: none;
+    }
+    .cards_container {
+        font-size: 14px;
+    }   
+    .Main_Header > div:first-child {
+        width: 95%;
+        padding: 0.25% 3% 0.25% 6%;
+    }
+    .links {
+        gap: 1%;
+    }
+    .links > *:nth-child(odd) {
+        padding: 2% 0%;
+        font-size: 1rem;
+    }
+    .downloadCard:hover .cards{color: #f43397;}
+    .downloadCard:hover .dropdownContent{
+        margin-top: 27%;
+    }
+
+}
+
+@media screen and ( max-width: 600px ) {
+    .hideOnSm{
+        display: none;
+    }    
+    .links {
+        display: none;
+    }
+    .profileContent {
+        position: fixed;
+        left: 40%;
+        width: 13rem;
+    }
+}
