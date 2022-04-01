@@ -1,0 +1,56 @@
+.root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.main {
+    display: flex;
+    gap: 1.5rem;
+    width: 60%;
+    height: 100%;
+    overflow: scroll;
+    margin: auto;
+    padding: 1rem 0rem;
+    padding-top: 7%;
+    justify-content: center;
+    height: fit-content;
+    overflow-y: scroll;
+}
+
+.summary {
+    overflow-y: scroll;
+    height: fit-content;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.summary > *:last-child {
+    margin-bottom: 5rem;
+}
+
+.priceBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.helpImg {
+    width: 90%;
+    max-width: 20rem;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: 0px 3px 3px 2px rgba(30, 80, 180, 0.15);
+}
+
+@media screen and ( max-width: 900px ) {
+    .main {
+        flex-direction: column;
+        padding-top: 10%;
+        height: fit-content;
+        width: 80%;
+    }
+}
