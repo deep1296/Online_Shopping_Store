@@ -194,7 +194,7 @@ const NavBar = () => {
                     <NavbarFloat key="Beauty n" onClick={() => { getQ("Beauty and health"); history.push("/cat") }} textArr={[["All Beauty Products", "View All"], ["Make up", "Face", "Eyes", "Lips", "Nails"], ["Wellness", "Sanitizers", "Oral Care", "Feminine Hygiene", "Skincare", "Deodorants"]]} />
                     <Link onClick={() => getQ("Beauty and health")} to="/cat">Health Products</Link>
                     <NavbarFloat key="Beauty an" onClick={() => { getQ("Beauty and health"); history.push("/cat") }} textArr={[["All Beauty Products", "View All"], ["Make up", "Face", "Eyes", "Lips", "Nails"], ["Wellness", "Sanitizers", "Oral Care", "Feminine Hygiene", "Skincare", "Deodorants"]]} />
-                    <Link onClick={() => getQ("Bags and Footwear")} to="/cat">Baga and Footwear</Link>
+                    <Link onClick={() => getQ("Bags and Footwear")} to="/cat">Bags and Footwear</Link>
                     <NavbarFloat key="Bags and" onClick={() => { getQ("Bags and Footwear"); history.push("/cat") }} textArr={[["Women Bags", "All Women Bags", "Handbags", "Clutches", "Slingbags"], ["Men Bags", "All Men Bags", "Men Wallets"]]} />
                     <Link onClick={() => getQ("Home and Kitchen")} to="/cat">Home</Link>
                     <NavbarFloat key="Home and" onClick={() => { getQ("Home and Kitchen"); history.push("/cat") }} textArr={[["Home Furnishing", "Bedsheets", "Doormats", "Curtains & Sheers", "Cushions & Cushion Covers", "Mattress Protectors"], ["Home Decor", "All Home Decor", "Stickers", "Clocks", "Showpieces", "Kitchen & Dining", "Kitchen Storage", "Cookware & Bakeware"]]} />
