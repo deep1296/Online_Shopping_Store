@@ -1,7 +1,36 @@
-# Meesho_clone
-Group Project to clone of meesho.com
 
-## Team Members 
+# Meesho Clone - FRONTEND 
+
+###  To check out the whole project, also clone and run the backend part of the project on this link: [Gymshark Clone - BACKEND](https://github.com/deep1296/Meesho_Backend)
+
+
+An e-commerce Indian website of wide range of apparel, cosmetics, household items, and many more categories
+
+
+## Deployed link of project
+- https://meesho-clone-xi.vercel.app/
+
+### Home page
+<!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/1.jpg) -->
+
+### Women Section page
+<!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/2.jpg) -->
+
+### Men Section page
+<!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/3.jpg) -->
+
+### Cart Page
+<!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/4.jpg) -->
+
+### Shipping Address Page
+<!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/5.jpg) -->
+
+### Payment Page
+<!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/6.jpg) -->
+
+
+## Team Members
+
 <ul>
   <li><a href="http://github.com/deep1296">Dipak Tange</a></li>
   <li><a href="https://github.com/SanketThombre">Sanket Thombre</a></li>
@@ -10,3 +39,65 @@ Group Project to clone of meesho.com
   <li><a href="https://github.com/govind-01">Govind Singh</a></li>
  
 </ul>
+
+
+## Deployment
+
+To run this project. In backend terminal perform:
+
+```bash
+  npm start
+```
+
+On frontend terminal perform:
+
+```bash
+  Open index.html with live server
+```
+
+
+
+## 🛠 Tech Stack
+
+- React
+- Redux
+- Material UI
+- Javascript
+- MongoDB
+- Express.js
+- Node.js
+- Mongoose
+- NPM - Dotenv, jsonwebtoken , bcryptjs 
+- Local storage
+
+## Functionality
+
+- Authentication
+- Seller page to add product
+- Add to cart
+- Payment Page with Discount Functionality
+- Search option to Search for product
+- Checkout
+- Indivisual Product description
+
+## Website flow for User
+
+- Home page
+
+- Category wise products
+
+- search on navbar
+
+- Product page(List of all products)
+
+- Single product page
+
+- Cart page
+
+- Address page
+
+- Payment page , One Time Password verification page.
+
+
+## Thank you note
+Thank you all who is giving precious time to visit our little creative project which is made with lot of efforts.
