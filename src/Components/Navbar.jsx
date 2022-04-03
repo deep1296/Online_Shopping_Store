@@ -222,3 +222,79 @@ const NavBar = () => {
 }
 
 export default NavBar;
+
+
+
+
+// import "./Footer.css"
+
+// export const Footer = () => {
+//     return(
+//         <>
+//         <div className="container2">
+//             <div className="left">
+//                <div className="head">
+//                 Shop Non-Stop on Meesho
+//                </div>
+//                <div className="pa">
+//                Trusted by more than 1 Crore Indians
+//                </div>
+//                <div className="pa2">
+//                Cash on Delivery | Free Delivery        
+//                </div>
+//                <div className="pic">
+//                    <div className="and">
+//                        <img src="https://imgs.search.brave.com/FO1miuVAAEKA09mnS8E3-lmlkEdZeJHnT5NGpis-7yk/rs:fit:1337:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC45/OEF4QWtSNWw1amV3/ZHM1Q1FFSkJBSGFD/byZwaWQ9QXBp" 
+//                        alt="android" 
+//                        href="https://play.google.com/store/apps/details?id=com.meesho.supply&pid=pow_website&c=pow&pow_click_page_type=HP&pow_distinct_id=17fd1a465d2265-0e3f6981c7764c-9771a35-144000-17fd1a465d328a"
+//                        />
+//                    </div>
+//                    <div className="app">
+//                        <img src="https://imgs.search.brave.com/ItUzd68Ie9NIxFIiMw6jot0L8sb2cXvqr9EgoY41Ay4/rs:fit:948:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/TFlpMHM0R0ZUeDVj/cDlmektNRTlRSGFE/dCZwaWQ9QXBp" alt="apple store" />
+//                    </div>
+//                </div>
+//                 {/* <h3>Trusted by more than 1 Crore IndiansCash on Delivery | Free Delivery</h3> */}
+//             </div>
+//             <div className="right">
+//                 <div className="one">
+//                     <div className="on">Careers</div>
+//                     <div className="ont">Become a supplier</div>
+//                     <div className="ont">Our Influencer Program</div>
+//                 </div>
+//                 <div className="one">
+//                     <div className="on">Legal and Policies</div>
+//                     <div className="ont">Meesho Tech Bog</div>
+//                     <div className="ont">Notices and Returns</div>   
+//                 </div>
+
+//                 <div className="social">
+//                     <div className="head">
+//                         Reach out to us
+//                     </div>
+//                     <div className="logo">
+//                         <div className="fb">
+                        
+//                         </div>
+//                         <div className="insta"></div>
+//                         <div className="utube"></div>
+//                         <div className="link"></div>
+//                         <div className="twit"></div>
+
+//                     </div>
+//                 </div>
+//                 <div className="last">
+//                     <div className="up">Contact us</div>
+//                     <div className="cont">
+                        
+//                     Fashnear Technologies Private Limited,
+//                     CIN: U74900KA2015PTC082263
+//                     06-105-B, 06-102, (138 Wu) Vaishnavi Signature, No. 78/9, Outer Ring Road, Bellandur, Varthur Hobli, Bengaluru-560103, Karnataka, India
+//                     E-mail address: query@meesho.com
+//                     © 2015-2022 Meesho.com
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//         </>
+//     )
+// }
