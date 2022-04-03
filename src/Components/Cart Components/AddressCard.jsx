@@ -2,7 +2,7 @@ import styles from "./AddressCard.module.css";
 
 const AddressCard = ({ add }) => {
 
-    if ( !add.name ) return <></>;
+    if ( !add.nam ) return <></>;
 
     return (
         <div className={styles.root}>
