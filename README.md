@@ -1,7 +1,7 @@
 
 # Meesho Clone - FRONTEND 
 
-###  To check out the whole project, also clone and run the backend part of the project on this link: [Gymshark Clone - BACKEND](https://github.com/deep1296/Meesho_Backend)
+###  To check out the whole project, also clone and run the backend part of the project on this link: [Meesho Clone - BACKEND](https://github.com/deep1296/Meesho_Backend)
 
 
 An e-commerce Indian website of wide range of apparel, cosmetics, household items, and many more categories
@@ -10,8 +10,8 @@ An e-commerce Indian website of wide range of apparel, cosmetics, household item
 ## Deployed link of project
 - https://meesho-clone-xi.vercel.app/
 
-### Home page
-<!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/1.jpg) -->
+<!-- ### Home page
+<img src= "https://drive.google.com/file/d/1A9Tpj7zSKRnyYEQDlp-pmihn3KY45pXi/view?usp=sharing">
 
 ### Women Section page
 <!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/2.jpg) -->
@@ -26,7 +26,7 @@ An e-commerce Indian website of wide range of apparel, cosmetics, household item
 <!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/5.jpg) -->
 
 ### Payment Page
-<!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/6.jpg) -->
+<!-- ![Gymshark-webite](https://github.com/Aniket-Pilankar/Gymshark_FRONTEND_Unit4/blob/main/Gymshark%20images/6.jpg) --> -->
 
 
 ## Team Members
