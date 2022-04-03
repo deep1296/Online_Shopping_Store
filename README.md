@@ -82,5 +82,7 @@ On frontend terminal perform:
 - Payment page , One Time Password verification page.
 
 
+### <u>You can read more about our project on our blog : <a href="https://medium.com/@ayushdhondiyal683/clone-of-meesho-using-pure-html-css-advanced-js-react-redux-backend-8fc539a32b9d" target="_blank">Clone of Meesho.com</a> </u>
+
 ## Thank you note
 Thank you all who is giving precious time to visit our little creative project which is made with lot of efforts.
