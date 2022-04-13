@@ -84,8 +84,8 @@ const Home = ()=>{
                     <h1>Start your Online Business</h1>
                     <h1>with Zero Investment</h1>
                     <div className={styles.banner3ibox}>
-                        <img src="https://meesho.com/_next/static/images/playstore-a7dfd2afcd42f96d491912cbec2d6fa2.png"/>
-                        <img src="https://meesho.com/_next/static/images/appstore-a689c2ac38f3ed1ab7e7b39e98aaf15a.png"/>
+                        <img src="https://images.meesho.com/images/pow/playstore-icon.png"/>
+                        <img src="https://images.meesho.com/images/pow/appstore-icon.png"/>
                     </div>
                 </div>
             </div>
